@@ -2,3 +2,5 @@ example.py
 example1.py
 
 .ruff_cache/
+
+__pycache__/
