@@ -1,0 +1,12 @@
+---
+applications:
+  - name: extract-results
+    memory: 256MB
+    disk_quota: 1024M
+    host: extract-results
+    domain: cfapps.eu10.hana.ondemand.com
+    command: python app.py
+    buildpacks: ["python_buildpack"]
+    services:
+      - xsuaa-app
+      - app-logs

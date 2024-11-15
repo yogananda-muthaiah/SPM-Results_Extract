@@ -1,0 +1,8 @@
+dash
+requests
+pandas
+pybase64
+dash_bootstrap_components
+plotly-express
+requestsexceptions
+dash
