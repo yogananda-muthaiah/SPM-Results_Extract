@@ -134,4 +134,4 @@ if __name__ == '__main__':
     if port != 0:
         app.run(host='0.0.0.0', port=cf_port)
     else:
-        app.run(debug=True)
+        app.run(debug=False)
